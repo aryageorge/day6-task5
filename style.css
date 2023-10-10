@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+nav{
+    background-color: aquamarine;
+    height: 40px;
+    display: flex;
+    padding: 10px;
+    
+    
+   
+}
+nav ul {
+    padding: 10px;
+    display: flex;
+    padding-left: 50px;
+   
+    
+    
+    
+}
+nav ul li{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items:end;
+  
+    color: rgb(11, 11, 11);
+    position: relative;
+    left: 790px;
+    padding-left: 20px;
+    
+    
+}
+
+
+.rows{
+    background-image: url('./laptop-1280536_1920.jpg');
+    background-size: cover;
+    background-position:50%;
+    
+    background-repeat: no-repeat;
+  
+    
+}
+.row1{
+    text-align:justify;
+    color: rgb(224, 239, 239);
+
+    padding: 50px;
+   
+    
+}
+.to{
+    padding-top: 30px;
+   width: 200px;
+   height: 50px;
+   display: flex;
+   padding: 20px;
+   
+
+}
+.to button{
+    padding: 10px;
+   margin: 3px;
+   
+  
+}
+h4:hover{
+    color: blue;
+
+}
+button:hover{
+    background-color: rgb(27, 201, 143);
+    color: rgb(37, 110, 179);
+
+}
+.cols{
+    display: flex;
+    padding: 60px;
+    
+}
+.box{
+    border:none ; 
+    padding: 30px;
+    margin: 10px;
+    justify-content: space-between;
+    height: 200px;
+    background-color: rgb(142, 230, 236);
+   
+
+}
+.box h3{
+    text-align: center;
+    padding: 20px;
+}
+.box p{
+    text-align: center;
+    
+}
+.box img{
+    width: 120px;
+    height: 90px;
+    padding-left: 75px;
+}
+
+ section h3{
+    margin-left:630px;
+    color: blue;
+    position: relative;
+    top: 22px;
+    
+   
+   
+}
+section{
+    padding: 60px;
+}
+.one{
+    display: flex;
+
+}
+.pic img{
+    width: 600px;
+    height: 400px;
+}
+.intro h2{
+    text-align: justify;
+    margin: 30px;
+    padding-top: 5px;
+}
+.intro p{
+    text-align: justify;
+    padding-left: 40px;
+    
+    
+}
+.po{
+display: flex;
+padding-left: 60px;
+line-height: 25px;
+
+}
+.po2{
+    margin-left: 200px;
+    
+}
+.bu{
+    width: 100px;
+    margin-left: 46px;
+    padding: 12px;
+   margin-top: 30px;
+}
+.bu:hover{
+    background-color: aqua;
+    color: rgb(245, 237, 237);
+}
+
+.pic1{
+    display: flex;
+   padding:60px;
+
+            
+  
+    
+   
+   
+}
+.pic2 img{
+    width: 700px;
+    height: 200px;
+   
+
+}
+.pic3 img{
+    width:500px;
+    height:450px;
+    position: absolute;
+    right:250px;
+    
+}
+
+span.b img {
+    display: inline-block;
+    width: 340px;
+    height: 245px;
+    padding: 5px;
+    border: none;  
+    position: relative;
+    top: 200px;
+    right:715px;
+   
+  }
+  
+  .cols1{
+    display: flex;
+   padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+     
+    
+  }   
+       
+        
+    .box2{
+        border:1px solid  ; 
+       margin: 20px;
+      
+        width: 350px;
+        height: 360px;
+        background-color: rgb(142, 230, 236);
+       
+    
+    }
+    .box2 h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .box2 p{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    .box2 img{
+        width: 100%;
+
+        
+    }  
+    .ju{
+       
+    
+        padding-top: 30px;
+       width: 200px;
+       height: 50px;
+     padding-left: 60px;
+      justify-content: space-evenly;
+      
+       
+    }
+
+    .ju button{
+        padding: 10px;
+       margin: 5px;
+       
+       
+       
+      
+    }
+    .cols2{
+        display: flex;
+       padding: 60px;
+       padding-top:50px;
+         
+        
+      }   
+           
+            
+        .box3{
+            border:none ; 
+           margin: 20px;
+          
+            width: 350px;
+            height: 360px;
+            background-color: rgb(232, 253, 255);
+           
+        
+        }
+        .box3 h3{
+            text-align: center;
+            padding-top: 5px;
+        }
+        .box3 p{
+            text-align: center;
+            padding-top: 10px;
+            
+        }
+        .box3 img{
+            width: 100%;
+    
+            
+        }  
+        
+        .ji {
+            
+            margin: 20px;
+            padding-left: 90px;
+            
+            
+            
+        }
+        .A{
+            padding: 60px;
+           text-align: center;
+            margin: 10px;
+        }
+        .A img{
+            border: none;
+            border-radius: 100%;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            
+
+        }
+        .BOXA{
+            border:none;
+            width: 250px;
+            height: 150px;
+            padding: 10px;
+            
+
+        }
+        .BOXA:hover{
+            background-color: rgb(238, 216, 207);
+
+        }
+        .b{
+            display: flex;
+            padding-left: 10px;
+            
+            justify-content: space-evenly;
+        }
+        footer{
+            display: flex;
+            background-color: rgb(28, 28, 79);
+         
+        
+            color: antiquewhite;
+           
+            
+
+        }
+        .gallery img{
+            width: 50px;
+            height: 50px;
+
+        }
+        .gallery{
+            padding: 20px;
+            margin: 50px;
+            justify-content: space-evenly;
+        }
+        .gallery h4{
+            padding: 10px;
+            text-align:start;
+           
+        }
+        .gallery p{
+            padding: 10px;
+        }
+        .box11{
+   
+            height: 40px;
+            width: 120px;
+            border:none ;
+            
+            
+            right: 520px;
+            position:absolute;
+   left:1100px;
+
+            background-color: azure;
+            color: black;
+            margin: 5px;
+        }
+        .box22{
+          
+            border:none;
+            
+            height: 50px;
+            width: 280px;
+            background-color: rgb(30, 30, 215);
+        
+           
+        }
+        .container1{
+            
+            padding: 10px;
+            color: aliceblue;
+        }
+        /*applying media query*/
+        @media screen  and (max-width:400px){
+            *{
+                font-family: 'Times New Roman', Times, serif;
+            }
+            nav{
+                background-color: lightskyblue;
+                color: brown;
+
+    
+            }
+            .pic{
+                display: flex;
+                flex-direction: column;
+            }
+            .cols{
+                display: flex;
+                flex-direction: column;
+            }
+            .cols1{
+                display: flex;
+                flex-direction: column;
+            }
+            .one{
+                display: flex;
+                flex-direction: column;
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+            }
+            .cols2{
+                display: flex;
+                flex-direction: column;
+            }
+            .box i{
+                display: flex;
+                flex-direction: column;
+                padding-right: 1000px;
+            }
+            }
+        
+        
