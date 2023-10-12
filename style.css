@@ -7,28 +7,26 @@ nav{
     height: 40px;
     display: flex;
     padding: 10px;
-    
-    
-   
-}
-nav ul {
-    padding: 10px;
-    display: flex;
-    padding-left: 50px;
-   
-    
-    
-    
-}
-nav ul li{
-    text-decoration: none;
     justify-content: space-between;
-    align-items:end;
+    align-items: center;
+    
+    
+    
+   
+}
+.nav_ul ul{
+
+    display: flex;
+  
+}
+.nav_ul li{
+    text-decoration: none;
+    
+   padding: 20px;
   
     color: rgb(11, 11, 11);
-    position: relative;
-    left: 790px;
-    padding-left: 20px;
+    
+  
     
     
 }
@@ -77,7 +75,7 @@ button:hover{
 }
 .cols{
     display: flex;
-    padding: 60px;
+    padding: 50px;
     
 }
 .box{
@@ -156,59 +154,57 @@ line-height: 25px;
     color: rgb(245, 237, 237);
 }
 
-.pic1{
+.container{
     display: flex;
-   padding:60px;
-
-            
-  
-    
+    padding: 60px; 
    
    
 }
 .pic2 img{
-    width: 700px;
-    height: 200px;
-   
+    width:100% ;
+    height: 300px; 
+    
 
+}
+
+.pic_all{
+    display: flex;
+   
+  padding-top: 10px;
+}
+   
+  .pic2_1{
+    width: 100%;
+    padding:  10px;
+    padding-left: 0;
+  }
+   
+.pic3{
+   
+    padding-left: 20px;
+    
 }
 .pic3 img{
-    width:500px;
-    height:450px;
-    position: absolute;
-    right:250px;
-    
+    width:100%;
+    height: 625px;
 }
 
-span.b img {
-    display: inline-block;
-    width: 340px;
-    height: 245px;
-    padding: 5px;
-    border: none;  
-    position: relative;
-    top: 200px;
-    right:715px;
-   
-  }
   
-  .cols1{
+
+.container_1{
     display: flex;
-   padding: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
-     
-    
-  }   
+   padding: 50px;
+  }
        
         
     .box2{
         border:1px solid  ; 
-       margin: 20px;
+        margin: 10px;
       
-        width: 350px;
-        height: 360px;
-        background-color: rgb(142, 230, 236);
+      
+        width: 100%;
+        height:360px;
+        background-color: rgb(214, 248, 251);
        
     
     }
@@ -226,30 +222,32 @@ span.b img {
 
         
     }  
+    .box2 img:hover{
+        cursor: pointer;
+       
+    }
     .ju{
+        padding-left: 60px;
+        padding-top: 10px;
+        align-items: center;
+        display:flex;
+    }
+    .ju button{
        
     
-        padding-top: 30px;
-       width: 200px;
-       height: 50px;
-     padding-left: 60px;
-      justify-content: space-evenly;
-      
+       
+       padding: 10px;
+        margin:10px;
+        transition-duration: 0.10s;
+        cursor: pointer;
        
     }
 
-    .ju button{
-        padding: 10px;
-       margin: 5px;
-       
-       
-       
-      
-    }
+    
     .cols2{
         display: flex;
-       padding: 60px;
-       padding-top:50px;
+       padding: 50px;
+       
          
         
       }   
@@ -257,13 +255,17 @@ span.b img {
             
         .box3{
             border:none ; 
-           margin: 20px;
-          
+           margin: 10px;
+          padding: 20px;
             width: 350px;
             height: 360px;
             background-color: rgb(232, 253, 255);
            
         
+        }
+        .box3:hover{
+            background-color: rgb(16, 15, 14);
+            color: beige;
         }
         .box3 h3{
             text-align: center;
@@ -276,6 +278,7 @@ span.b img {
         }
         .box3 img{
             width: 100%;
+           
     
             
         }  
@@ -289,7 +292,7 @@ span.b img {
             
         }
         .A{
-            padding: 60px;
+            padding: 50px;
            text-align: center;
             margin: 10px;
         }
@@ -321,8 +324,11 @@ span.b img {
             justify-content: space-evenly;
         }
         footer{
-            display: flex;
+            
             background-color: rgb(28, 28, 79);
+           
+            display: flex;
+            padding: 60px;
          
         
             color: antiquewhite;
@@ -330,54 +336,78 @@ span.b img {
             
 
         }
-        .gallery img{
+        .gallery{
+           margin: 40px;
+          
+           
+         
+           
+           
+        }
+        .gall_1{
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        
+        .gall_1 img{
             width: 50px;
             height: 50px;
-
+           
+            
         }
-        .gallery{
-            padding: 20px;
-            margin: 50px;
-            justify-content: space-evenly;
+        
+        
+        
+        
+        .gallery p{
+            padding-left:40px;
+            padding-top: 10px;
+        }
+       
+        
+        .gallery ul{
+            padding-left: 60px;
+            padding-top: 20px;   
+           
         }
         .gallery h4{
-            padding: 10px;
-            text-align:start;
+            padding-left:40px;
            
+            
         }
-        .gallery p{
-            padding: 10px;
-        }
-        .box11{
-   
-            height: 40px;
-            width: 120px;
-            border:none ;
+        .last{
+            padding: 20px;
+            padding-left:40px;
+           
+            
+           
             
             
-            right: 520px;
-            position:absolute;
-   left:1100px;
+        }
+        .be{
+            height: 30px;
+           padding: 10px;
+            width: 300px;
+           
+           
 
-            background-color: azure;
-            color: black;
-            margin: 5px;
         }
-        .box22{
-          
-            border:none;
-            
-            height: 50px;
-            width: 280px;
-            background-color: rgb(30, 30, 215);
-        
+        .up{
+            position: absolute;
+            right:200px;
+            margin: 10px;
+           padding:5px;
+         
+
            
-        }
-        .container1{
+        
             
-            padding: 10px;
-            color: aliceblue;
+          
+   
         }
+        
+        
+        
         /*applying media query*/
         @media screen  and (max-width:400px){
             *{
@@ -386,17 +416,24 @@ span.b img {
             nav{
                 background-color: lightskyblue;
                 color: brown;
+                width: 100%;
 
     
             }
             .pic{
                 display: flex;
                 flex-direction: column;
+                width: 100%;
             }
             .cols{
                 display: flex;
                 flex-direction: column;
+                width: 100%;
+                
+
             }
+         
+            
             .cols1{
                 display: flex;
                 flex-direction: column;
@@ -413,10 +450,36 @@ span.b img {
                 display: flex;
                 flex-direction: column;
             }
-            .box i{
+            
+            .b{
                 display: flex;
                 flex-direction: column;
-                padding-right: 1000px;
+                padding-left: 20px;
+
+            }
+            .container{
+                display: flex;
+                flex-direction: column-reverse;
+                width:100%;
+            }
+            .container_1{
+                display: flex;
+                flex-direction: column-reverse;
+                width: 100%;
+
+            }
+            footer{
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(126, 126, 252);
+              
+            }
+            .up{
+              position: absolute;
+              left:300px;
+              width:100px;
+             
+
             }
             }
         
