@@ -32,7 +32,7 @@ nav{
 }
 
 
-.rows{
+.be-rows{
     background-image: url('./laptop-1280536_1920.jpg');
     background-size: cover;
     background-position:50%;
@@ -41,7 +41,7 @@ nav{
   
     
 }
-.row1{
+.be-rows--row1{
     text-align:justify;
     color: rgb(224, 239, 239);
 
@@ -49,36 +49,37 @@ nav{
    
     
 }
-.to{
+.be-rows_button{
     padding-top: 30px;
    width: 200px;
    height: 50px;
    display: flex;
    padding: 20px;
    
+   
 
 }
-.to button{
+.be-rows_button button{
     padding: 10px;
    margin: 3px;
    
   
 }
-h4:hover{
+.be-rows--row1 h4:hover{
     color: blue;
 
 }
-button:hover{
+.be-rows_button button:hover{
     background-color: rgb(27, 201, 143);
     color: rgb(37, 110, 179);
 
 }
-.cols{
+.be-cols{
     display: flex;
     padding: 50px;
     
 }
-.box{
+.be-cols_box{
     border:none ; 
     padding: 30px;
     margin: 10px;
@@ -88,15 +89,15 @@ button:hover{
    
 
 }
-.box h3{
+.be-cols_box h3{
     text-align: center;
     padding: 20px;
 }
-.box p{
+.be-cols_box p{
     text-align: center;
     
 }
-.box img{
+.be-cols_box img{
     width: 120px;
     height: 90px;
     padding-left: 75px;
@@ -114,7 +115,7 @@ button:hover{
 section{
     padding: 60px;
 }
-.one{
+.about{
     display: flex;
 
 }
@@ -133,17 +134,17 @@ section{
     
     
 }
-.po{
+.intro_about{
 display: flex;
 padding-left: 60px;
 line-height: 25px;
 
 }
-.po2{
+.intro_about--2{
     margin-left: 200px;
     
 }
-.bu{
+.intro--bu{
     width: 100px;
     margin-left: 46px;
     padding: 12px;
@@ -154,50 +155,50 @@ line-height: 25px;
     color: rgb(245, 237, 237);
 }
 
-.container{
+.be-container{
     display: flex;
     padding: 60px; 
    
    
 }
-.pic2 img{
+.be-container_pic1 img{
     width:100% ;
     height: 300px; 
     
 
 }
 
-.pic_all{
+.be-container_pic1--pic_all{
     display: flex;
    
   padding-top: 10px;
 }
    
-  .pic2_1{
+  .be-container_pic1--pic1_1{
     width: 100%;
-    padding:  10px;
+    padding: 10px;
     padding-left: 0;
   }
    
-.pic3{
+.be-container_pic3{
    
     padding-left: 20px;
     
 }
-.pic3 img{
+.be-container_pic3 img{
     width:100%;
     height: 625px;
 }
 
   
 
-.container_1{
+.be-card{
     display: flex;
    padding: 50px;
   }
        
         
-    .box2{
+    .be-card_box1{
         border:1px solid  ; 
         margin: 10px;
       
@@ -208,31 +209,31 @@ line-height: 25px;
        
     
     }
-    .box2 h3{
+    .be-card_box1 h3{
         text-align: center;
         padding-top: 20px;
     }
-    .box2 p{
+    .be-card_box1 p{
         text-align: center;
         padding-top: 20px;
         
     }
-    .box2 img{
+    .be-card_box1 img{
         width: 100%;
 
         
     }  
-    .box2 img:hover{
+    .be-card_box1 img:hover{
         cursor: pointer;
        
     }
-    .ju{
+    .be-card_box1_button{
         padding-left: 60px;
         padding-top: 10px;
         align-items: center;
         display:flex;
     }
-    .ju button{
+    .be-card_box1_button button{
        
     
        
@@ -244,7 +245,7 @@ line-height: 25px;
     }
 
     
-    .cols2{
+    .be-card-1{
         display: flex;
        padding: 50px;
        
@@ -253,7 +254,7 @@ line-height: 25px;
       }   
            
             
-        .box3{
+        .be-card-1_box2{
             border:none ; 
            margin: 10px;
           padding: 20px;
@@ -263,27 +264,27 @@ line-height: 25px;
            
         
         }
-        .box3:hover{
+        .be-card-1_box2:hover{
             background-color: rgb(16, 15, 14);
             color: beige;
         }
-        .box3 h3{
+        .be-card-1_box2 h3{
             text-align: center;
             padding-top: 5px;
         }
-        .box3 p{
+        .be-card-1_box2 p{
             text-align: center;
             padding-top: 10px;
             
         }
-        .box3 img{
+        .be-card-1_box2 img{
             width: 100%;
            
     
             
         }  
         
-        .ji {
+        .be-card-1_box2_button {
             
             margin: 20px;
             padding-left: 90px;
@@ -291,12 +292,18 @@ line-height: 25px;
             
             
         }
-        .A{
+        .be-card-2{
+            display: flex;
+            padding-left: 10px;
+            justify-content: space-evenly;
+            
+        }
+        .be-card-2_A{
             padding: 50px;
            text-align: center;
             margin: 10px;
         }
-        .A img{
+        .be-card-2_A img{
             border: none;
             border-radius: 100%;
             width: 200px;
@@ -305,7 +312,7 @@ line-height: 25px;
             
 
         }
-        .BOXA{
+        .be-card-2_A-BOXA{
             border:none;
             width: 250px;
             height: 150px;
@@ -313,16 +320,11 @@ line-height: 25px;
             
 
         }
-        .BOXA:hover{
+        .be-card-2_A-BOXA:hover{
             background-color: rgb(238, 216, 207);
 
         }
-        .b{
-            display: flex;
-            padding-left: 10px;
-            
-            justify-content: space-evenly;
-        }
+        
         footer{
             
             background-color: rgb(28, 28, 79);
@@ -336,20 +338,32 @@ line-height: 25px;
             
 
         }
-        .gallery{
-           margin: 40px;
-          
-           
-         
-           
+        .be_footer{
+           margin: 40px;   
+        }
+
+        .be_footer p{
+            padding-left:40px;
+            padding-top: 10px;
+        }
+       
+        
+        .be_footer ul{
+            padding-left: 60px;
+            padding-top: 20px;   
            
         }
-        .gall_1{
+        .be_footer h4{
+            padding-left:40px;
+           
+            
+        }
+        .be_footer-gallery{
             padding-left: 50px;
             padding-top: 10px;
         }
         
-        .gall_1 img{
+        .be_footer-gallery img{
             width: 50px;
             height: 50px;
            
@@ -359,23 +373,8 @@ line-height: 25px;
         
         
         
-        .gallery p{
-            padding-left:40px;
-            padding-top: 10px;
-        }
-       
         
-        .gallery ul{
-            padding-left: 60px;
-            padding-top: 20px;   
-           
-        }
-        .gallery h4{
-            padding-left:40px;
-           
-            
-        }
-        .last{
+        .be_footer-last{
             padding: 20px;
             padding-left:40px;
            
@@ -384,7 +383,7 @@ line-height: 25px;
             
             
         }
-        .be{
+        .be_footer-last_bu{
             height: 30px;
            padding: 10px;
             width: 300px;
@@ -392,17 +391,11 @@ line-height: 25px;
            
 
         }
-        .up{
+        .be_footer-last_bu1{
             position: absolute;
             right:200px;
             margin: 10px;
-           padding:5px;
-         
-
-           
-        
-            
-          
+           padding:5px; 
    
         }
         
@@ -420,12 +413,23 @@ line-height: 25px;
 
     
             }
-            .pic{
+
+            section h3{
+                margin-left:0px;
+                color: blue;
+                position:none;
+                top:0px;
+                padding: 10px;
+                
+               
+               
+            }
+            .pic img{
                 display: flex;
                 flex-direction: column;
                 width: 100%;
             }
-            .cols{
+            .be-cols{
                 display: flex;
                 flex-direction: column;
                 width: 100%;
@@ -433,48 +437,58 @@ line-height: 25px;
 
             }
          
-            
-            .cols1{
+            .intro_about{
                 display: flex;
                 flex-direction: column;
-            }
-            .one{
-                display: flex;
-                flex-direction: column;
-            }
-            .box{
-                display: flex;
-                flex-direction: column;
-            }
-            .cols2{
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .b{
-                display: flex;
-                flex-direction: column;
-                padding-left: 20px;
+                
 
             }
-            .container{
+            .intro_about--2{
+                margin-left:0px;
+                margin-top:5px;
+    
+
+            }
+            .be-card-1{
+                display: flex;
+                flex-direction: column;
+            }
+            .about{
+                display: flex;
+                flex-direction: column;
+            }
+            .be-cols_box{
+                display: flex;
+                flex-direction: column;
+            }
+           
+            
+            .be-card-2{
+                display: flex;
+                flex-direction: column;
+                
+
+            }
+            
+            .be-container{
                 display: flex;
                 flex-direction: column-reverse;
                 width:100%;
             }
-            .container_1{
+            .be-card{
                 display: flex;
                 flex-direction: column-reverse;
                 width: 100%;
 
             }
+            
             footer{
                 display: flex;
                 flex-direction: column;
                 background-color: rgb(126, 126, 252);
               
             }
-            .up{
+            .be_footer-last_bu1{
               position: absolute;
               left:300px;
               width:100px;
@@ -482,5 +496,5 @@ line-height: 25px;
 
             }
             }
-        
+           
         
